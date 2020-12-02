@@ -1,7 +1,7 @@
 
 # Start the web Scraper useing Firefox
 if (!(Get-InstalledModule Selenium)) {
-    Import-Module Selenium
+    Install-Module Selenium
 }
 else {
     Write-Host "Module Selenim is present"
